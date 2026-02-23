@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Harikaran K M | Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- PARTICLES BACKGROUND -->
+<div id="particles"></div>
+
+<!-- NAVBAR -->
+<nav class="navbar" id="navbar">
+  <div class="nav-logo">HK<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#internship">Experience</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="hamburger" id="hamburger">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-left">
+    <p class="hero-greeting">👋 Hello, I'm</p>
+    <h1 class="hero-name">Harikaran<br><span>K M</span></h1>
+    <div class="hero-roles">
+      <span class="role-prefix">I'm a </span>
+      <span class="typed-text" id="typed"></span><span class="cursor">|</span>
+    </div>
+    <p class="hero-desc">
+      Passionate software developer from Chennai, building real-world solutions with Java, Python, and modern web technologies. Currently pursuing B.E. CSE at Panimalar Engineering College.
+    </p>
+    <div class="hero-btns">
+      <a href="#projects" class="btn-primary">View Projects</a>
+      <a href="#contact" class="btn-outline">Hire Me</a>
+    </div>
+    <div class="hero-socials">
+      <a href="https://linkedin.com/in/hari-karan-1981042b5" target="_blank" class="social-btn" title="LinkedIn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"/><circle cx="4" cy="4" r="2"/></svg>
+      </a>
+      <a href="https://github.com/harikaran-2006" target="_blank" class="social-btn" title="GitHub">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+      </a>
+      <a href="mailto:kmhari618@gmail.com" class="social-btn" title="Email">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+  </div>
+  <div class="hero-right">
+    <div class="photo-container">
+      <div class="photo-ring"></div>
+      <div class="photo-wrapper">
+        <!-- 
+          HOW TO ADD YOUR PHOTO:
+          1. Save your photo as "photo.jpg" in the same folder as this file
+          2. Replace the img tag below by removing the comment tags
+        -->
+        <!-- <img src="photo.jpg" alt="Harikaran K M" class="profile-photo"/> -->
+        
+        <!-- PLACEHOLDER (remove this div when you add your photo) -->
+        <div class="photo-placeholder">
+          <svg width="80" height="80" viewBox="0 0 24 24" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <p>Add photo.jpg<br>to this folder</p>
+        </div>
+      </div>
+      <div class="floating-badge badge1">☕ Java</div>
+      <div class="floating-badge badge2">🐍 Python</div>
+      <div class="floating-badge badge3">🌐 Web Dev</div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">About Me</span>
+      <h2 class="section-title">Who I Am</h2>
+    </div>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>I'm <strong>Harikaran K M</strong>, a dedicated Software Developer and B.E. CSE student at <strong>Panimalar Engineering College</strong> (2023–2027), based in <strong>Chennai, Tamil Nadu</strong>.</p>
+        <p>I bring expertise in design, installation, testing, and maintenance of software systems. Proficient in various platforms, languages, and embedded systems, I thrive both independently and as a team player.</p>
+        <p>I've completed internships in <strong>Python Programming</strong> and <strong>Web Development</strong>, and I'm currently expanding my skills into <strong>MongoDB</strong> .</p>
+        <div class="about-info-grid">
+          <div class="info-item"><span class="info-icon">📍</span><div><small>Location</small><strong>Chennai, Tamil Nadu</strong></div></div>
+          <div class="info-item"><span class="info-icon">📧</span><div><small>Email</small><strong>kmhari618@gmail.com</strong></div></div>
+          <div class="info-item"><span class="info-icon">📱</span><div><small>Phone</small><strong>+91 6369859379</strong></div></div>
+          <div class="info-item"><span class="info-icon">🎓</span><div><small>Degree</small><strong>B.E. CSE · 2027</strong></div></div>
+        </div>
+      </div>
+      <div class="about-cards">
+        <div class="stat-card">
+          <div class="stat-num">2+</div>
+          <div class="stat-label">Internships</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">5+</div>
+          <div class="stat-label">Certifications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">3+</div>
+          <div class="stat-label">Projects</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-num">6+</div>
+          <div class="stat-label">Tech Skills</div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 100%;display: flex; align-items: center; justify-content: center; margin-top: 40px; ">
+    <a href="https://drive.google.com/file/d/18JQSsAOpwLXLxe-_n072ycOTKezrpBm9/view?usp=sharing" class="btn-primary" >Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">My Skills</span>
+      <h2 class="section-title">Technical Arsenal</h2>
+    </div>
+
+    <div class="skills-wrapper">
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>💻</span> Programming Languages</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><span class="pill-icon">☕</span>Java</div>
+          <div class="skill-pill"><span class="pill-icon">🐍</span>Python</div>
+          <div class="skill-pill"><span class="pill-icon">⚙️</span>C</div>
+          <div class="skill-pill"><span class="pill-icon">📜</span>JavaScript</div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>🌐</span> Web Development</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><span class="pill-icon">🧱</span>HTML5</div>
+          <div class="skill-pill"><span class="pill-icon">🎨</span>CSS3</div>
+          <div class="skill-pill"><span class="pill-icon">📜</span>JavaScript</div>
+
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>🗄️</span> Database</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><span class="pill-icon">🐬</span>MySQL</div>
+          <div class="skill-pill learning"><span class="pill-icon">🍃</span>MongoDB </div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>🔧</span> Platforms & Tools</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><span class="pill-icon">💙</span>VS Code</div>
+          <div class="skill-pill"><span class="pill-icon">🌑</span>Eclipse</div>
+          <div class="skill-pill"><span class="pill-icon">🐬</span>MySQL Workbench</div>
+          <div class="skill-pill"><span class="pill-icon">🐙</span>GitHub</div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>🧠</span> Libraries & Frameworks</h3>
+        <div class="skill-pills">
+          <div class="skill-pill"><span class="pill-icon">🔬</span>scikit-learn</div>
+          <div class="skill-pill"><span class="pill-icon">🔢</span>NumPy</div>
+          <div class="skill-pill"><span class="pill-icon">🐼</span>pandas</div>
+        </div>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title"><span>🤝</span> Soft Skills</h3>
+        <div class="skill-pills">
+          <div class="skill-pill soft"><span class="pill-icon">💬</span>Communication</div>
+          <div class="skill-pill soft"><span class="pill-icon">👥</span>Teamwork</div>
+          <div class="skill-pill soft"><span class="pill-icon">💡</span>Problem Solving</div>
+          <div class="skill-pill soft"><span class="pill-icon">⏰</span>Time Management</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">My Work</span>
+      <h2 class="section-title">Projects</h2>
+    </div>
+    <div class="projects-grid">
+
+      <div class="project-card">
+        <div class="project-top">
+          <span class="project-emoji">👥</span>
+          <div class="project-links">
+            <a href="https://github.com/harikaran-2006/Bank_management_System" target="_blank" class="icon-btn" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+          
+        </div>
+        <h3 class="project-title">Bank Management System</h3>
+        <p class="project-desc">A System Which is Usefull for Bank Staffs to Maintain Clients info</p>
+        <div class="project-tech">
+          <span>java</span><span>html</span><span>JavaScript</span><span>css</span>
+        </div>
+      </div>
+ <div class="project-card">
+        <div class="project-top">
+          <span class="project-emoji">🦠</span>
+          <div class="project-links">
+            <a href="https://github.com/harikaran-2006" target="_blank" class="icon-btn" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">Malware Classification Using ML</h3>
+        <p class="project-desc">Developed an end-to-end malware classification system. Implemented feature engineering and supervised ML models to accurately classify malicious and benign files.</p>
+        <div class="project-tech">
+          <span>Python</span><span>scikit-learn</span><span>NumPy</span><span>pandas</span><span>ML</span>
+        </div>
+      </div>
+       <div class="project-card">
+        <div class="project-top">
+          <span class="project-emoji">📅</span>
+          <div class="project-links">
+            <a href="https://github.com/harikaran-2006/Daily_Follower" target="_blank" class="icon-btn" title="GitHub">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+        </div>
+        <h3 class="project-title">Daily Follower</h3>
+        <p class="project-desc">Developed an Daily remainder to do your works without missing in correct Time.</p>
+        <div class="project-tech">
+          <span>CSS</span><span>HTML</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INTERNSHIP / EXPERIENCE -->
+<section id="internship" class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Experience</span>
+      <h2 class="section-title">Internships</h2>
+    </div>
+    <div class="timeline">
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>App Development Intern</h3>
+            <span class="timeline-date">01 June 2025 – 30 July 2025</span>
+          </div>
+          <div class="timeline-company">🏢 CodeAlpha</div>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/1bPzDE4nZIEhHNUVu0NJhJ6krd0qUErDS/view?usp=sharing" target="_blank" class="icon-btn" title="Cert">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+          <ul class="timeline-points">
+            <li>Developed an Applications like Fitness Tracker and FlashCard Quiz app.</li>
+            <li>These apps will be useful for the kids and adults to train them mentally and physically</li>
+            <li>Designed responsive app using java, html,css to ensure cross-device compatibility.</li>
+          </ul>
+          <div class="timeline-tags"><span>HTML</span><span>CSS</span><span>java</span></div>
+        </div>
+      </div>
+
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3>Python Programming Intern</h3>
+            <span class="timeline-date">27 June 2025 – 27 July 2025</span>
+          </div>
+          <div class="timeline-company">🏢 Codec technologies</div>
+          <div class="project-links">
+            <a href="https://drive.google.com/file/d/1F0-YpXB5N09uthlvZfpSzz5DwvKERyeq/view?usp=sharing" target="_blank" class="icon-btn" title="Cert">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 00-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0020 4.77 5.07 5.07 0 0019.91 1S18.73.65 16 2.48a13.38 13.38 0 00-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 005 4.77a5.44 5.44 0 00-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 009 18.13V22"/></svg>
+            </a>
+          </div>
+          <ul class="timeline-points">
+            <li>Completed a structured Python programming internship focused on core programming concepts and problem-solving skills.</li>
+          </ul>
+          <div class="timeline-tags"><span>Python</span><span>Problem Solving</span><span>Core Programming</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Credentials</span>
+      <h2 class="section-title">Certifications</h2>
+    </div>
+    <div class="certs-grid">
+
+      <div class="cert-card">
+        <div class="cert-icon">📘</div>
+        <div class="cert-body">
+          <h4>Programming in Java <a style="display: inline;" href="https://drive.google.com/file/d/1u6goef0mzCO37nyqMlU492Kne7_2hTVg/view?usp=sharing" href="YOUR_LINK_HERE" target="_blank" class="icon-btn" title="Cert">
+    🔗
+            </a></h4>
+          <p>NPTEL</p>
+           
+          <span class="cert-badge">Completed</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon">🌐</div>
+        <div class="cert-body">
+          <h4>Basics Of Python<a style="display: inline;" href="https://drive.google.com/file/d/1igSEX7L2e4Caaz5xaVxmnGY42gl0jUbb/view?usp=sharing" href="YOUR_LINK_HERE" target="_blank" class="icon-btn" title="Cert">
+    🔗
+            </a></h4>
+          <p>Infosys</p>
+          
+          <span class="cert-badge">Completed</span>
+        </div>
+      </div>
+
+      <div class="cert-card">
+        <div class="cert-icon">🔐</div>
+        <div class="cert-body">
+          <h4>Automation course<a style="display: inline;" href="https://drive.google.com/file/d/1JBoFSpYpBcwe7j9NhQHfKphhrYa3LM9A/view?usp=sharing" href="YOUR_LINK_HERE" target="_blank" class="icon-btn" title="Cert">
+    🔗
+</a></h4>
+          <p>UI-Path</p>
+          
+            </a>
+          <span class="cert-badge">Completed</span>
+        </div>
+      </div><div class="cert-card">
+        <div class="cert-icon">🔐</div>
+        <div class="cert-body">
+          <h4>Cloud Computing 101<a style="display: inline;" href="https://drive.google.com/file/d/10EdlbDBBSV1vuKBW2-RIUVqps_stniTU/view?usp=sharing" href="YOUR_LINK_HERE" target="_blank" class="icon-btn" title="Cert">
+    🔗
+            </a></h4>
+          <p>AWS</p>
+          
+          <span class="cert-badge">Completed</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- EDUCATION -->
+<section class="section section-dark">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Academic</span>
+      <h2 class="section-title">Education</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card">
+        <span class="edu-icon">🎓</span>
+        <h4>Bachelor of Engineering – CSE</h4>
+        <p>Panimalar Engineering College</p>
+        <span class="edu-year">2023 – 2027</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">📚</span>
+        <h4>Class XII – HSC</h4>
+        <p>ST. MARY'S Matriculation HR. SEC School</p>
+        <span class="edu-year">2023</span>
+      </div>
+      <div class="edu-card">
+        <span class="edu-icon">📖</span>
+        <h4>Class X – SSC</h4>
+        <p>ST. MARY'S Matriculation HR. SEC School</p>
+        <span class="edu-year">2021</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <div class="section-header">
+      <span class="section-tag">Get In Touch</span>
+      <h2 class="section-title">Contact Me</h2>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info">
+        <h3>Let's work together!</h3>
+        <p>I'm open to internships, fresher roles, and collaboration opportunities. Feel free to reach out!</p>
+        <div class="contact-items">
+          <a href="mailto:kmhari618@gmail.com" class="contact-item">
+            <span class="c-icon">📧</span>
+            <div><small>Email</small><strong>kmhari618@gmail.com</strong></div>
+          </a>
+          <a href="tel:+916369859379" class="contact-item">
+            <span class="c-icon">📱</span>
+            <div><small>Phone</small><strong>+91 6369859379</strong></div>
+          </a>
+          <div class="contact-item">
+            <span class="c-icon">📍</span>
+            <div><small>Location</small><strong>Chennai, Tamil Nadu</strong></div>
+          </div>
+          <a href="https://linkedin.com/in/hari-karan-1981042b5" target="_blank" class="contact-item">
+            <span class="c-icon">💼</span>
+            <div><small>LinkedIn</small><strong>hari-karan-1981042b5</strong></div>
+          </a>
+          <a href="https://github.com/harikaran-2006" target="_blank" class="contact-item">
+            <span class="c-icon">🐙</span>
+            <div><small>GitHub</small><strong>harikaran-2006</strong></div>
+          </a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="sendMessage(event)">
+        <div class="form-group">
+          <label>Your Name</label>
+          <input type="text" placeholder="John Doe" required/>
+        </div>
+        <div class="form-group">
+          <label>Email Address</label>
+          <input type="email" placeholder="john@company.com" required/>
+        </div>
+        <div class="form-group">
+          <label>Subject</label>
+          <input type="text" placeholder="Internship Opportunity"/>
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea rows="4" placeholder="Hi Harikaran, I'd like to discuss..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary" style="width:100%;justify-content:center;">Send Message ✉</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>Designed & Built with ❤️ by <span>Harikaran K M</span> · Chennai · 2025</p>
+  <p style="margin-top:8px;font-size:13px;color:#666;">Open to opportunities at Hexaware & top IT companies</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
